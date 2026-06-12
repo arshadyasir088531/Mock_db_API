@@ -7,7 +7,7 @@ const customers = [
   {
     cust_id: "CUST001",
     customer_name: "Ajay",
-    phone_number: "+1234567890",
+    phone: "+1234567890",
     loan_amt: 100000,
     due_date: "2026-07-15",
     loan_amt_left: 35000,
@@ -16,7 +16,7 @@ const customers = [
   {
     cust_id: "CUST002",
     customer_name: "Rahul",
-    phone_number: "+2345678911",
+    phone: "+2345678911",
     loan_amt: 75000,
     due_date: "2026-06-28",
     loan_amt_left: 22000,
@@ -25,7 +25,7 @@ const customers = [
   {
     cust_id: "CUST003",
     customer_name: "Atul",
-    phone_number: "+3456789012",
+    phone: "+3456789012",
     loan_amt: 15000,
     due_date: "2026-06-20",
     loan_amt_left: 8000,
@@ -34,7 +34,7 @@ const customers = [
   {
     cust_id: "CUST004",
     customer_name: "Risha",
-    phone_number: "+4567890123",
+    phone: "+4567890123",
     loan_amt: 120000,
     due_date: "2026-07-05",
     loan_amt_left: 67000,
@@ -43,7 +43,7 @@ const customers = [
   {
     cust_id: "CUST005",
     customer_name: "Arshad",
-    phone_number: "+919652209058",
+    phone: "+919652209058",
     loan_amt: 45000,
     due_date: "2026-06-25",
     loan_amt_left: 12000,
@@ -52,7 +52,7 @@ const customers = [
   {
     cust_id: "CUST006",
     customer_name: "Manika",
-    phone_number: "+6789012345",
+    phone: "+6789012345",
     loan_amt: 90000,
     due_date: "2026-07-10",
     loan_amt_left: 48000,
