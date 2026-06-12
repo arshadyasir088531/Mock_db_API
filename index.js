@@ -43,7 +43,7 @@ const customers = [
   {
     cust_id: "CUST005",
     customer_name: "Arshad",
-    phone_number: "+5678901234",
+    phone_number: "+919652209058",
     loan_amt: 45000,
     due_date: "2026-06-25",
     loan_amt_left: 12000,
