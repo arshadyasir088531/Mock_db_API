@@ -77,6 +77,16 @@ app.get('/loan/:cust_id', (req, res) => {
     }
 });
 
+app.post("/customer", async (req, res) => {
+  const { phone_number } = req.body;
+
+  const customer = await Customer.findOne({
+    phone_number
+  });
+
+  res.json(customer);
+});
+
 // Health check
 app.get('/', (req, res) => {
   res.json({ status: 'ok', message: 'Loan API is running' });
