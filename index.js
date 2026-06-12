@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 
 
 const customers = [
@@ -78,9 +78,9 @@ app.get('/loan/:cust_id', (req, res) => {
 });
 
 app.post("/customer", (req, res) => {
-  const { phone_numbers } = req.body;
+  const { phone_number } = req.body;
 
-  const customer = customers.find(c => c.phone_number === phone_numbers);
+  const customer = customers.find(c => c.phone_number === phone_number);
 
   if (customer) {
     res.json(customer);
