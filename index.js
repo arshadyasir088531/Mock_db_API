@@ -77,14 +77,16 @@ app.get('/loan/:cust_id', (req, res) => {
     }
 });
 
-app.post("/customer", async (req, res) => {
-  const { phone_number } = req.body;
+app.post("/customer", (req, res) => {
+  const { phone_numbers } = req.body;
 
-  const customer = await Customer.findOne({
-    phone_number
-  });
+  const customer = customers.find(c => c.phone_number === phone_numbers);
 
-  res.json(customer);
+  if (customer) {
+    res.json(customer);
+  } else {
+    res.status(404).json({ error: 'Customer not found' });
+  }
 });
 
 // Health check
