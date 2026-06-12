@@ -5,7 +5,8 @@ const PORT = process.env.PORT || 3000;
 
 const customers = [
   {
-    cust_id: "Ajay",
+    cust_id: "CUST001",
+    customer_name: "Ajay",
     phone_number: "+1234567890",
     loan_amt: 100000,
     due_date: "2026-07-15",
@@ -13,7 +14,8 @@ const customers = [
     curr_emi: 5000
   },
   {
-    cust_id: "Rahul",
+    cust_id: "CUST002",
+    customer_name: "Rahul",
     phone_number: "+2345678911",
     loan_amt: 75000,
     due_date: "2026-06-28",
@@ -21,7 +23,8 @@ const customers = [
     curr_emi: 4200
   },
   {
-    cust_id: "Atul",
+    cust_id: "CUST003",
+    customer_name: "Atul",
     phone_number: "+3456789012",
     loan_amt: 15000,
     due_date: "2026-06-20",
@@ -29,7 +32,8 @@ const customers = [
     curr_emi: 1500
   },
   {
-    cust_id: "Risha",
+    cust_id: "CUST004",
+    customer_name: "Risha",
     phone_number: "+4567890123",
     loan_amt: 120000,
     due_date: "2026-07-05",
@@ -37,7 +41,8 @@ const customers = [
     curr_emi: 7800
   },
   {
-    cust_id: "Arshad",
+    cust_id: "CUST005",
+    customer_name: "Arshad",
     phone_number: "+5678901234",
     loan_amt: 45000,
     due_date: "2026-06-25",
@@ -45,7 +50,8 @@ const customers = [
     curr_emi: 3200
   },
   {
-    cust_id: "Manika",
+    cust_id: "CUST006",
+    customer_name: "Manika",
     phone_number: "+6789012345",
     loan_amt: 90000,
     due_date: "2026-07-10",
