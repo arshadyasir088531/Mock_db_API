@@ -57,7 +57,7 @@ const customers = [
     due_date: "2026-07-10",
     loan_amt_left: 48000,
     curr_emi: 5600
-  }
+  },
   {
   "cust_id": "CUST001",
   "customer_name": "Aditya Jaiswal",
