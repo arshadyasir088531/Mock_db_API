@@ -102,7 +102,7 @@ app.get('/loan/:cust_id', (req, res) => {
 app.post("/customer", (req, res) => {
   const { phone_number } = req.body;
 
-  const customer = customers.find(c => c.phone_number === phone_number);
+  const customer = customers.find(c => c.phone === phone_number);
 
   if (customer) {
     res.json(customer);
